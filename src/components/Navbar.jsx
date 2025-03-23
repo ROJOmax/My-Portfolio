@@ -68,7 +68,7 @@ const Navbar = () => {
 
       {isOpen && (
         <div
-          className={`fixed right-0 top-[84px] flex h-screen w-1/2 flex-col items-start justify-start gap-10 border-l border-gray-800 bg-black/90 p-12
+          className={`fixed right-0 top-[120px] flex h-screen w-1/2 flex-col items-start justify-start gap-10 border-l border-gray-800 bg-black/90 p-12
         ${isOpen ? "block" : "hidden"}`}
         >
           <ul className="flex flex-col gap-8">
@@ -101,7 +101,7 @@ const Navbar = () => {
             </a>
           </ul>
 
-          <ul className="flex flex-wrap gap-5">
+          <ul className="flex flex-col flex-wrap gap-5">
             <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-white hover:opacity-100">
               <BsGithub />
             </li>
