@@ -48,15 +48,21 @@ const Navbar = () => {
 
       <ul className="hidden md:flex gap-10">
         <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-white hover:opacity-100">
-          <BsGithub />
+          <a href="https://github.com/ROJOmax">
+            <BsGithub />
+          </a>
         </li>
 
         <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-blue-500 hover:opacity-100">
-          <BsLinkedin />
+          <a href="https://www.linkedin.com/in/yassine-benkraouda-301a22255/">
+            <BsLinkedin />
+          </a>
         </li>
 
         <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-pink-600 hover:opacity-100">
-          <BsInstagram />
+          <a href="https://www.instagram.com/yassineisintrouble/">
+            <BsInstagram />
+          </a>
         </li>
       </ul>
 
@@ -103,15 +109,21 @@ const Navbar = () => {
 
           <ul className="flex flex-col flex-wrap gap-5">
             <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-white hover:opacity-100">
-              <BsGithub />
+              <a href="https://github.com/ROJOmax">
+                <BsGithub />
+              </a>
             </li>
 
             <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-blue-500 hover:opacity-100">
-              <BsLinkedin />
+              <a href="https://www.linkedin.com/in/yassine-benkraouda-301a22255/">
+                <BsLinkedin />
+              </a>
             </li>
 
             <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-pink-600 hover:opacity-100">
-              <BsInstagram />
+              <a href="https://www.instagram.com/yassineisintrouble/">
+                <BsInstagram />
+              </a>
             </li>
           </ul>
         </div>
